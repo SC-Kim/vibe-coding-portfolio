@@ -196,10 +196,14 @@ body {
   
   .card-img--2 {
     background-image: url("./images/mywork_market.jpg");
+    background-size: cover;
+    background-position: center top;
   }
   
   .card-img--3 {
     background-image: url("./images/mywork_collaboration.jpeg");
+    background-size: cover;
+    background-position: center top;
   }
 
 .card-label {
