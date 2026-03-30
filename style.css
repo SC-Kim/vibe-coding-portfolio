@@ -186,9 +186,21 @@ body {
   background-color: #e0d8ce;
 }
 
-.card-img--1 { background-color: #d6cfc6; }
-.card-img--2 { background-color: #c8bfb4; }
-.card-img--3 { background-color: #b8ae9f; }
+
+/* 각각 이미지 연결 */
+.card-img--1 {
+    background-image: url("./images/mywork_development.png");
+    background-size: cover;
+    background-position: center top; /* 또는 center, top, bottom */
+  }
+  
+  .card-img--2 {
+    background-image: url("./images/mywork_market.jpg");
+  }
+  
+  .card-img--3 {
+    background-image: url("./images/mywork_collaboration.jpeg");
+  }
 
 .card-label {
   font-size: 0.78rem;
